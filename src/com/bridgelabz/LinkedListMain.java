@@ -5,11 +5,11 @@ import java.util.LinkedList;
 public class LinkedListMain {
     public static void main(String[] args) {
 
-        LinkedList <Integer> number = new LinkedList<>();
-        number.add(56);
-        number.add(30);
-        number.add(70);
+        LinkedListLogic linkedListLogic = new LinkedListLogic();
 
-        System.out.println("Linked List Is"+number);
+        linkedListLogic.insertNode(70);
+        linkedListLogic.insertNode(30);
+        linkedListLogic.insertNode(56);
+        linkedListLogic.toPrint();
     }
 }
