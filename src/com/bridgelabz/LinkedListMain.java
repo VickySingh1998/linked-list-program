@@ -7,9 +7,9 @@ public class LinkedListMain {
 
         LinkedListLogic linkedListLogic = new LinkedListLogic();
 
-        linkedListLogic.insertNode(70);
-        linkedListLogic.insertNode(30);
         linkedListLogic.insertNode(56);
+        linkedListLogic.appending(56, 30);
+        linkedListLogic.appending(30, 70);
         linkedListLogic.toPrint();
     }
 }
